@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-30T10:26:54 IST" name="Default suite" finished-at="2025-03-30T10:26:56 IST" duration-ms="2304">
+    <groups>
+    </groups>
+    <test started-at="2025-03-30T10:26:54 IST" name="Default test" finished-at="2025-03-30T10:26:56 IST" duration-ms="2304">
+      <class name="com.APIAutomation.test.TestExhecution">
+        <test-method signature="Dummy()[pri:0, instance:com.APIAutomation.test.TestExhecution@131774fe]" started-at="2025-03-30T10:26:54 IST" name="Dummy" description="Successful User Registration - A new user with valid details should successfully register" finished-at="2025-03-30T10:26:56 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dummy -->
+      </class> <!-- com.APIAutomation.test.TestExhecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

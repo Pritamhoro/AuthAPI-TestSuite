@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-30T10:26:54 IST" name="Default suite" finished-at="2025-03-30T10:26:56 IST" duration-ms="2304">
+  <suite started-at="2025-03-30T11:14:55 IST" name="Default suite" finished-at="2025-03-30T11:14:57 IST" duration-ms="2618">
     <groups>
     </groups>
-    <test started-at="2025-03-30T10:26:54 IST" name="Default test" finished-at="2025-03-30T10:26:56 IST" duration-ms="2304">
+    <test started-at="2025-03-30T11:14:55 IST" name="Default test" finished-at="2025-03-30T11:14:57 IST" duration-ms="2618">
       <class name="com.APIAutomation.test.TestExhecution">
-        <test-method signature="Dummy()[pri:0, instance:com.APIAutomation.test.TestExhecution@131774fe]" started-at="2025-03-30T10:26:54 IST" name="Dummy" description="Successful User Registration - A new user with valid details should successfully register" finished-at="2025-03-30T10:26:56 IST" duration-ms="2227" status="PASS">
+        <test-method signature="Successful_User_Registration()[pri:0, instance:com.APIAutomation.test.TestExhecution@c8c12ac]" started-at="2025-03-30T11:14:55 IST" name="Successful_User_Registration" description="Successful User Registration - A new user with valid details should successfully register" finished-at="2025-03-30T11:14:57 IST" duration-ms="2555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Dummy -->
+        </test-method> <!-- Successful_User_Registration -->
       </class> <!-- com.APIAutomation.test.TestExhecution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

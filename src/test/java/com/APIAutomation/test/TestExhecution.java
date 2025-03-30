@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 
 public class TestExhecution
 {
-	@Test(description = "Successful User Registration - A new user with valid details should successfully register")
+	@Test(priority = 1,description = "Successful User Registration - A new user with valid details should successfully register")
 	public static void Successful_User_Registration()
 	{
 		Faker faker=new Faker();
@@ -33,7 +33,7 @@ public class TestExhecution
 		.asPrettyString();
 	}
 	
-	@Test(description = "Registration with Existing Username - Registration should fail if username already exists.")
+	@Test(priority = 2,description = "Registration with Existing Username - Registration should fail if username already exists.")
 	public void Registration_with_Existing_Username()
 	{
 		RestAssured.registerParser("text/plain", io.restassured.parsing.Parser.TEXT);
@@ -52,7 +52,6 @@ public class TestExhecution
 		.statusCode(400)
 		.extract()
 		.response();
-		
 		response.then().statusCode(400);
 		response.then().body(equalTo("Error: Username is already taken!"));
 		

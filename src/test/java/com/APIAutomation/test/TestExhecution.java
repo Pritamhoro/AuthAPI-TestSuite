@@ -1,14 +1,18 @@
 package com.APIAutomation.test;
 
 import static org.hamcrest.Matchers.equalTo;
+
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.APIAutomation.base.AuthenticationService;
 import com.APIAutomation.payload.RequestPayload;
+import com.APIAutomation.utilities.Listner;
 import com.github.javafaker.Faker;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
+@Listeners(Listner.class)
 public class TestExhecution
 {
 	@Test(priority = 1,description = "Successful User Registration - A new user with valid details should successfully register")

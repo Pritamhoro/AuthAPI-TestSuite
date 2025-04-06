@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\prita\AppData\Local\Temp\testng-eclipse-1820070082\testng-customsuite.xml</span>
+                    <span>C:\Users\prita\AppData\Local\Temp\testng-eclipse-835161177\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.APIAutomation.test.TestExhecution" class="method navigator-link" hash-for-method="Registration_with_Existing_Username">Registration_with_Existing_Username</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.APIAutomation.test.TestExhecution" class="method navigator-link" hash-for-method="Successful_User_Registration">Successful_User_Registration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.APIAutomation.test.TestExhecution" class="method navigator-link" hash-for-method="Login_Invalid_Credentials">Login_Invalid_Credentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,20 +126,11 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Registration_with_Existing_Username">
-                  </a> <!-- Registration_with_Existing_Username -->
-                  <span class="method-name">Registration_with_Existing_Username</span>
+                  <a name="Login_Invalid_Credentials">
+                  </a> <!-- Login_Invalid_Credentials -->
+                  <span class="method-name">Login_Invalid_Credentials</span>
                   <em>
-(Registration with Existing Username - Registration should fail if username already exists.)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Successful_User_Registration">
-                  </a> <!-- Successful_User_Registration -->
-                  <span class="method-name">Successful_User_Registration</span>
-                  <em>
-(Successful User Registration - A new user with valid details should successfully register)                  </em>
+(Login with Invalid Credentials)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -152,7 +138,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\prita\AppData\Local\Temp\testng-eclipse-1820070082\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\prita\AppData\Local\Temp\testng-eclipse-835161177\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -161,7 +147,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.APIAutomation.test.TestExhecution&quot;/&gt;
+      &lt;class name=&quot;com.APIAutomation.test.TestExhecution&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login_Invalid_Credentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.APIAutomation.test.TestExhecution --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -201,20 +191,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Successful_User_Registration')
+data.setCell(0, 1, 'Login_Invalid_Credentials')
 data.setCell(0, 2, 'com.APIAutomation.test.TestExhecution')
-data.setCell(0, 3, 2046);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Registration_with_Existing_Username')
-data.setCell(1, 2, 'com.APIAutomation.test.TestExhecution')
-data.setCell(1, 3, 44);
+data.setCell(0, 3, 3047);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -229,9 +215,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.APIAutomation.test.TestExhecution</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Successful_User_Registration</span>
+                <br/>
+                <span class="ignored-method-name">Registration_with_Existing_Username</span>
+                <br/>
+                <span class="ignored-method-name">Login_valid_Credentials</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -242,12 +239,8 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.APIAutomation.test.TestExhecution</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Successful_User_Registration</span>
+                <span class="method-name">Login_Invalid_Credentials</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Registration_with_Existing_Username</span>
-                <span class="method-start">2052 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -5,7 +5,7 @@
     <classes>
       <class name="com.APIAutomation.test.TestExhecution">
         <methods>
-          <include name="Registration_with_Existing_Username"/>
+          <include name="Login"/>
         </methods>
       </class> <!-- com.APIAutomation.test.TestExhecution -->
     </classes>

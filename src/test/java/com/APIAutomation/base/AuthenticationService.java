@@ -10,4 +10,8 @@ public class AuthenticationService extends Base
 	{
 		return POST(payload, BASE_PATH+"signup");
 	}
+	public static Response Login(Object payload) 
+	{
+		return POST(payload, BASE_PATH+"login");
+	}
 }

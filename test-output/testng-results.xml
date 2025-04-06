@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-31T12:31:30 IST" name="Default suite" finished-at="2025-03-31T12:31:32 IST" duration-ms="2135">
+  <suite started-at="2025-04-06T11:57:26 IST" name="Default suite" finished-at="2025-04-06T11:57:29 IST" duration-ms="3108">
     <groups>
     </groups>
-    <test started-at="2025-03-31T12:31:30 IST" name="Default test" finished-at="2025-03-31T12:31:32 IST" duration-ms="2135">
+    <test started-at="2025-04-06T11:57:26 IST" name="Default test" finished-at="2025-04-06T11:57:29 IST" duration-ms="3108">
       <class name="com.APIAutomation.test.TestExhecution">
-        <test-method signature="Successful_User_Registration()[pri:1, instance:com.APIAutomation.test.TestExhecution@6adbc9d]" started-at="2025-03-31T12:31:30 IST" name="Successful_User_Registration" description="Successful User Registration - A new user with valid details should successfully register" finished-at="2025-03-31T12:31:32 IST" duration-ms="2046" status="PASS">
+        <test-method signature="Login_Invalid_Credentials()[pri:0, instance:com.APIAutomation.test.TestExhecution@9597028]" started-at="2025-04-06T11:57:26 IST" name="Login_Invalid_Credentials" description="Login with Invalid Credentials" finished-at="2025-04-06T11:57:29 IST" duration-ms="3047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Successful_User_Registration -->
-        <test-method signature="Registration_with_Existing_Username()[pri:2, instance:com.APIAutomation.test.TestExhecution@6adbc9d]" started-at="2025-03-31T12:31:32 IST" name="Registration_with_Existing_Username" description="Registration with Existing Username - Registration should fail if username already exists." finished-at="2025-03-31T12:31:32 IST" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration_with_Existing_Username -->
+        </test-method> <!-- Login_Invalid_Credentials -->
       </class> <!-- com.APIAutomation.test.TestExhecution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
